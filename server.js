@@ -41,7 +41,7 @@ MongoClient.connect(url, function (err, db) {
 
 
     //Create the server connection
-    app.listen(app.get('port'), function() {
+    app.listen(app.get('port'), function () {
       console.log('Node app is running on port', app.get('port'));
     });
 
@@ -49,3 +49,5 @@ MongoClient.connect(url, function (err, db) {
     //Close connection
     db.close;
   }
+
+});
