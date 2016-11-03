@@ -36,7 +36,7 @@ MongoClient.connect(url, function (err, db) {
 
     // do some work here with the database.
     app.get('/', function (req, res) {
-      res.send('Hello World!');
+      res.send(index.html);
     });
 
 
